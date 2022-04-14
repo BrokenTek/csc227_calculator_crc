@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<div class="page">
+	<h2>Simple Calculator</h3>
+	<h3>Select Calculation Type</h4>
+
+	<form action="result.php" method="post">
+		<select name="calc" id="calc">
+			<option value="add">ADDITION</option>
+			<option value="subtract">SUBTRACTION</option>
+			<option value="multiply">MULTIPLICATION</option>
+			<option value="divide">DIVISION</option>
+		</select>
+		<div class="input_box">
+			<p class="num"><strong>Enter First Number:</strong>
+				<input type="text" size="10" name="num1" value="0">
+			 </p>
+			 <p class="num"><strong>Enter Second Number:</strong>
+			 	<input type="text" size="10" name="num2" value="0">
+			 </p>
+		</div>
+		 <input type="submit" value="Submit">
+	</form>
+</div>
+
+</body>
+</html>

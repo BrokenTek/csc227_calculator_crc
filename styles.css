@@ -1,0 +1,32 @@
+body {
+	font-family: courier;
+}
+
+.page {
+	text-align: center;
+	float: center;
+	box-sizing: border-box;
+	background-color: grey;
+	border-radius: 50px;
+	border: 2px solid black;
+}
+
+.input_box {
+	box-sizing: border-box;
+	text-align: center;
+	margin: 50px;
+}
+
+.result_p {
+	text-align: center;
+	font-family: courier;
+	font-size: 40px;
+	background-color: grey;
+	border-radius: 50px;
+	border: 2px solid black;
+}
+
+.num {
+	font-size: 25px;
+}
+
